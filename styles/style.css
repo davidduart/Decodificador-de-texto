@@ -129,7 +129,7 @@ main {
 
 .texto-resultado::placeholder {
     height: 80vh;
-    background: url(/Assets/Menino\ com\ lupa.svg);
+    background: url(/Assets/menino.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20vw;

@@ -232,7 +232,7 @@ footer p {
     .texto-resultado::placeholder {
         height: 60vh;
         font-size: 20px;
-        background: url(/Assets/Menino\ com\ lupa.svg);
+        background: url(/Assets/menino.svg);
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: 60px;

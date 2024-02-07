@@ -179,7 +179,7 @@ footer p {
 
 .rodape__link {
     color: white;
-    font-style: oblique;
+    font-style: normal;
 }
 
 @media screen and (max-width: 900px) {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de Texto</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./Assets/logo-alura.svg" alt="Logo da Alura" class="logo">            
+        </header>
+        <main>
+            <div class="criptografia">
+                <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="texto"></textarea>
+                <p id="aviso"><img src="./Assets/exclamacao.png" alt="Ponto de exclamação">Apenas letras minúsculas e sem acento!</p>
+                <div class="btn-criptografia">
+                    <button id="criptografar" class="btn">Criptografar</button>
+                    <button id="descriptografar" class="btn">Descriptografar</button>
+                </div>
+            </div>
+            <div class="resultado">
+                <textarea wrap="hard" id="output" readonly placeholder="O texto codificado ou decodificado aparecerá aqui!" class="texto-resultado"></textarea>
+                <button id="copiar" class="btn">Copiar</button>
+                <button class="btn__limpar" id="limpar">Limpar campos</button>
+            </div>
+        </main>
+        <footer>
+            <p class="rodape">Desenvolvido por <a class="rodape__link" href="https://www.linkedin.com/in/david-duarte-enginner/">David Duarte da Silva</a></p>
+        </footer>        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
